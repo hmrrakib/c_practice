@@ -1,0 +1,14 @@
+/* .two-div{
+    display: inline-block;
+}
+.left-part{
+    float: left;
+}
+.right-part{
+    float: right;
+    margin: ;
+} */
+.outline-btn-hover:hover{
+    background-color: rgba(217, 186, 247, 0.64) ; 
+    padding: 10px;
+}

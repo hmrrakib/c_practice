@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phitron</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .bg-colour{
+            background-color: navajowhite !important;
+        }
+    </style>
+  </head>
+  <body>
+       <!-- <h1>Hello, world!</h1> -->
+       <!-- navbar section start -->
+
+        <nav class="navbar navbar-expand-lg bg-light bg-colour">
+            <div class="container">
+                <a class="navbar-brand" href="https://web.facebook.com/?_rdc=1&_rdr" target="__blank">
+                    <img src="images/phitron.png" alt="" width="70pxl">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                    </ul>
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-outline-success rounded-pill me-3">Log In</button>
+                        <!-- login from modal start -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- login from modal end -->
+                        <button type="button" class="btn btn-primary btn-lg rounded-pill">Registration</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+       <!-- navbar section end -->
+       <!-- Main section start -->
+
+        <main>
+            <!-- <div class="two-div">
+                <div class="left-part">
+                   <h2>Left Part</h2>
+                </div>
+                <div class="right-part">
+                    <h2>Right Part</h2>
+                </div>
+            </div> -->
+            <!-- stat banner section -->
+            <section class="bg-info">
+                <div class="container d-flex justify-content-between py-5">
+                    <div>
+                        <h4>CSE Fundamental</h4>
+                        <h2>A Complete Guideline</h2>
+                        <p>হার্ডওয়ার্ক করে, ডেডিকেটেড থেকে, জানপ্রাণ দিয়ে চেষ্টা করে নিজের প্রোগ্রামিং এর ফাউন্ডেশন গড়তে চাইলে এই কোর্সে
+                            জয়েন করো।
+                            💪</p>
+                        <button type="button" class="btn btn-primary pt-2 pb-2 pe-3 ps-3 fw-bold ">Enroll Now</button>
+                        <a href="#" class="ms-2 outline-btn-hover ">See course outline</a>
+                    </div>
+                    <div>
+                        <img src="/images/banner.png" alt="">
+                    </div>
+                    <!-- <div class="row">
+                                    <div class="col">amar1</div>
+                                    <div class="col">amar2</div>
+                                </div> -->
+                </div>
+            </section>
+            
+            <!-- end banner section -->
+
+            <!-- CSE Fundemental section start -->
+
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col">
+                        <h1 class="text-center">CSE Fundamentals With Phitron</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="/images/csefundamental1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                        <h3>পরবর্তী ব্যাচের সময় সূচি</h3>
+                        <ul>
+                            <li>এনরোলমেন্ট শুরু: ছয় মাস বা একবছর পরে</li>
+                            <li>এনরোলমেন্ট শেষ: দুই সপ্তাহের সময় থাকবে</li>
+                            <li>ব্যাচের ওরিয়েন্টশন: এনরোলমেন্ট এর ৫ দিনের মধ্যে</li>
+                            <li>ক্লাস শুরু: এনরোলমেন্ট এর ৭ দিনের মধ্যে</li>
+                        </ul>
+                        <h2>৳ ৬৫০০</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CSE Fundemental section end -->
+            
+            
+        </main>
+
+       <!-- Main section end -->
+       <footer class="bg-light mt-3"> 
+           <h2 class="text-center py-3  ">Rakib &copy;2022</h2>
+       </footer>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+    const myModalEl = document.getElementById('myModal')
+        myModalEl.addEventListener('hidden.bs.modal', event => {
+            // do something...
+        })
+        </script>
+  </body>
+</html>
